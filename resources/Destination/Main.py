@@ -17,9 +17,10 @@ def execute():
     result = process(len(transformed))
 
     # Logical error is here — solver must fix this
-    if result == True:
+    if result ==False:
         flag = decode_blob(transformed)
         if flag:
             print(flag)
+
 
 execute()
